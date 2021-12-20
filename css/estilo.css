@@ -1,0 +1,98 @@
+
+header {
+    text-align: center;
+}
+.main-logo {
+    width: 19em;
+    height: auto;
+    padding-top: 0.5em;
+}
+
+menu {
+    border: 1px #8A8070;
+    border-style: solid none;
+}
+
+menu ul { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
+
+menu ul li a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 0.8em;
+    padding: 1em;
+}
+
+menu ul li a:hover {
+    color: #7ABA96;
+}
+
+.grid {
+  display: flex; /* Make products flex in row direction (default) */
+  flex-wrap: wrap; /* Make products overflow on new row */
+  justify-content: center; /* Or space-between or space-around */
+}
+/*.grid > section {
+  flex: 1 1 0; 
+  text-align: center;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  max-width: 400px; 
+}*/
+
+.grid section {
+    padding: 0.5em;
+}
+
+.grid section {
+    width: 20em;
+    height: auto;
+    text-align: center;
+}
+.grid section img {
+    width: 20em;
+    height: auto;
+}
+.grid section p {
+    text-align: justify;
+}
+
+.grid .date {
+    margin-top: 2.5em;
+    border: 1px #7ABA96;
+    border-style: solid none;
+}
+
+.grid section h4 {
+    width: auto;
+    height: 1em;
+}
+
+footer {
+    background-color: black;
+}
+
+footer ul { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+    margin-top: 0.75em;
+    margin-bottom: 0.75em;
+}
+
+footer ul li a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-size: 0.8em;
+    padding: 1em;
+}
