@@ -85,14 +85,15 @@ footer ul {
     flex-direction: row;
     justify-content: center;
     list-style: none;
-    margin-top: 0.75em;
-    margin-bottom: 0.75em;
+    padding-top: 3em;
+    padding-bottom: 3em;
 }
 
 footer ul li a {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: white;
-    font-size: 0.8em;
+    text-transform: uppercase;
     padding: 1em;
+    font-size: 0.85em;
 }
