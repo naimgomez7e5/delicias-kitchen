@@ -35,22 +35,52 @@ menu ul li a:hover {
     color: #7ABA96;
 }
 
+aside {
+    width: 17em;
+    height: auto;
+    text-align: center; 
+    clear: left;
+    padding-left: 10em;
+
+}
+
+aside .about-me p {
+    color: gray;
+    text-align: justify;
+}
+
+aside .book {
+    background-color: #EEEEEE;
+}
+aside .book h4{
+    padding-top:1em;
+}
+aside .book p{
+    color: gray;
+}
+
+aside .book a{
+    background-color: #7ABA96;
+    padding-top: 0.3em;
+    padding-bottom: 0.3em;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 0.85em;
+    display: inline-block;
+    width: 100%;
+}
+
+
+
 .grid {
   display: flex; /* Make products flex in row direction (default) */
   flex-wrap: wrap; /* Make products overflow on new row */
   justify-content: center; /* Or space-between or space-around */
 }
-/*.grid > section {
-  flex: 1 1 0; 
-  text-align: center;
-  display: flex; 
-  flex-direction: column; 
-  align-items: center; 
-  max-width: 400px; 
-}*/
 
 .grid section {
-    padding: 0.5em;
+    padding: 1.5em;
 }
 
 .grid section {
