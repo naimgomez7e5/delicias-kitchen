@@ -35,90 +35,6 @@ menu ul li a:hover {
     color: #7ABA96;
 }
 
-aside {
-
-    float:left;
-    width: 17em;
-    height: auto;
-    text-align: center; 
-    clear: left;
-    padding-left: 5em;
-
-}
-
-aside .about-me p {
-    color: gray;
-    text-align: justify;
-}
-
-aside .book {
-    background-color: #EEEEEE;
-}
-aside .book h4{
-    padding-top:1em;
-}
-aside .book p{
-    color: gray;
-}
-
-aside .book a{
-    background-color: #7ABA96;
-    padding-top: 0.3em;
-    padding-bottom: 0.3em;
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    color: black;
-    font-size: 0.85em;
-    display: inline-block;
-    width: 100%;
-}
-
-
-
-.grid {
-  display: flex; /* Make products flex in row direction (default) */
-  flex-wrap: wrap; /* Make products overflow on new row */
-  justify-content: center; /* Or space-between or space-around */
-}
-
-.grid section {
-    padding: 1.5em;
-}
-
-.grid section {
-    width: 20em;
-    height: auto;
-    text-align: center;
-}
-.grid section img {
-    width: 20em;
-    height: auto;
-}
-.grid section p {
-    text-align: justify;
-}
-
-.grid section a {
-    color: black;
-    text-decoration: none;
-}
-
-.grid section a:hover {
-    color: #9D9485;
-}
-
-.grid .date {
-    margin-top: 2.5em;
-    border: 1px #7ABA96;
-    border-style: solid none;
-
-}
-
-.grid section h4 {
-    width: auto;
-    height: 1em;
-}
-
 footer {
     background-color: black;
     
@@ -143,5 +59,38 @@ footer ul li a {
 }
 
 
+.receta {
+    margin-left: 2em;
+    margin-top: 2em;
+}
+.receta .main-img {
+    height: 25em;
+    width: auto;
+}
 
+.receta h1 {
+    margin-top: 1em;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 1.7em;
+    letter-spacing: 0.01em;
+}
 
+.receta .timestamp {
+    margin-top: -15px;
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 1em;
+    color: gray;
+    letter-spacing: 0.02em;
+}
+
+.receta p {
+    font-family: "Times New Roman", Times, serif;
+
+    text-decoration: none;
+    font-weight: lighter;
+    font-size: 1em;
+    letter-spacing: 0.02em;
+}

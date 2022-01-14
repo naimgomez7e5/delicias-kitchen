@@ -114,6 +114,13 @@ aside .book a{
 
 }
 
+.grid .date {
+    margin-top: 2.5em;
+    border: 1px #7ABA96;
+    border-style: solid none;
+
+}
+
 .grid section h4 {
     width: auto;
     height: 1em;
