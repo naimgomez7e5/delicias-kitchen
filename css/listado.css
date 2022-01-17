@@ -11,7 +11,9 @@
     padding-right: 5em;
 }
 
-
+.product-list {
+    margin-top: -1em;
+}
 
 .product-list h4 {
     text-decoration: none;
@@ -20,7 +22,7 @@
 }
 
 .product-list h4:hover {
-    color: #7ABA96;,;
+    color: #7ABA96;
 }
 
 .char {
@@ -70,6 +72,3 @@
     margin-left: 2.48em;
 }
 
-.split {
-    margin-right: 4em;
-}
