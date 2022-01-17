@@ -1,18 +1,31 @@
-header {
+.top-menu {
+
     text-align: center;
+    background-color: white;
+    overflow: hidden;
+    position: fixed;
+    top: 0; 
+    width: 100%; 
+
 }
+body {
+    padding-top: 10em;
+}
+
 .main-logo {
     width: 19em;
     height: auto;
     padding-top: 0.5em;
+    padding-left: 5em;
 }
 
-.top-menu {
+menu {
     border: 1px #8A8070;
     border-style: solid none;
+    margin-right: 1em;
 }
 
-.top-menu ul { 
+menu ul { 
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -21,7 +34,7 @@ header {
     margin-bottom: 0.75em;
 }
 
-.top-menu ul li a {
+menu ul li a {
     font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: black;
@@ -30,7 +43,7 @@ header {
     padding: 1em;
 }
 
-.top-menu ul li a:hover {
+menu ul li a:hover {
     color: #7ABA96;
 }
 
