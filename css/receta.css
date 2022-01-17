@@ -1,79 +1,15 @@
-
-header {
-    text-align: center;
-}
-.main-logo {
-    width: 19em;
-    height: auto;
-    padding-top: 0.5em;
-}
-
-menu {
-    border: 1px #8A8070;
-    border-style: solid none;
-}
-
-menu ul { 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    list-style: none;
-    margin-top: 0.75em;
-    margin-bottom: 0.75em;
-}
-
-menu ul li a {
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    color: black;
-    font-size: 0.8em;
-    text-transform: uppercase;
-    padding: 1em;
-}
-
-menu ul li a:hover {
-    color: #7ABA96;
-}
-
-footer {
-    background-color: black;
-    
-}
-
-footer ul { 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    list-style: none;
-    padding-top: 3em;
-    padding-bottom: 3em;
-}
-
-footer ul li a {
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-    padding: 1em;
-    font-size: 0.85em;
-}
-
-
-/* 
-*
-*
-*/
-
 .content {
     margin-top: 2em;
     margin-right: 4em;
     margin-left: 4em;
+
 }
 
 .receta {
+    
     width: 65%;
     height: auto;
-    float:left;
+    float:right;
 }
 
 
@@ -120,39 +56,6 @@ footer ul li a {
 *
 *
 */
-aside {
-    float:right;    
-    width: 18em;
-    height: auto;
-    text-align: center; 
-}
-
-aside .about-me p {
-    color: gray;
-    text-align: justify;
-}
-
-aside .book {
-    background-color: #EEEEEE;
-}
-aside .book h4{
-    padding-top:1em;
-}
-aside .book p{
-    color: gray;
-}
-
-aside .book a{
-    background-color: #7ABA96;
-    padding-top: 0.3em;
-    padding-bottom: 0.3em;
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    color: black;
-    font-size: 0.85em;
-    display: inline-block;
-    width: 100%;
-}
 
 
 .ingredients ul li {
